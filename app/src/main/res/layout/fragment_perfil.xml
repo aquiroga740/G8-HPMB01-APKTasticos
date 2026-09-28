@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollPerfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTituloPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:textColor="@color/texto_oscuro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivFotoPerfil"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="Foto de perfil"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foto_perfil" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nombre Apellido"
+            android:textColor="@color/texto_oscuro"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estudiante de Ingeniería de Software"
+            android:textColor="@color/texto_suave" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Estudios"
+            android:textColor="@color/verde_principal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEstudios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Bachiller académico, Colegio XYZ (2020)\n• Pregrado en Ingeniería de Software, Politécnico Grancolombiano (en curso)"
+            android:textColor="@color/texto_oscuro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Experiencia"
+            android:textColor="@color/verde_principal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvExperiencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Auxiliar de soporte técnico (2022-2023)\n• Desarrollo de proyectos académicos en Java y Android"
+            android:textColor="@color/texto_oscuro" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_tarjeta_verde"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tvResumen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resumen de productividad"
+                android:textColor="@color/alerta"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPendientes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pendientes: 5 tareas"
+                android:textColor="@color/texto_oscuro" />
+
+            <TextView
+                android:id="@+id/tvBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance: Al día"
+                android:textColor="@color/texto_oscuro" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
