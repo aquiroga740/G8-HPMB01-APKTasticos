@@ -41,7 +41,7 @@ public class VideoFragment extends Fragment {
         MediaController controles = new MediaController(requireContext());
         controles.setAnchorView(vvVideo);
         vvVideo.setMediaController(controles);
-        vvVideo.setVideoURI(Uri.parse(URL_VIDEO));
+           vvVideo.setVideoURI(Uri.parse("android.resource://" + requireContext().getPackageName() + "/" + R.raw.mi_video));
 
         // Eventos del reproductor
         vvVideo.setOnPreparedListener(mp -> tvTituloVideo.setText("Video listo. Toca la pantalla para ver los controles."));
