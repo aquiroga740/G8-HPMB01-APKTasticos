@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Nombre Apellido"
+            android:text="Alejandro Quiroga"
             android:textColor="@color/texto_oscuro"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -58,7 +58,7 @@
             android:id="@+id/tvEstudios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Bachiller académico, Colegio XYZ (2020)\n• Pregrado en Ingeniería de Software, Politécnico Grancolombiano (en curso)"
+            android:text="• Bachiller académico, Colegio Fernando Mazuera Villegas (2017)\n• Pregrado en Ingeniería de Software, Politécnico Grancolombiano (en curso)"
             android:textColor="@color/texto_oscuro" />
 
         <TextView
@@ -73,7 +73,7 @@
             android:id="@+id/tvExperiencia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="• Auxiliar de soporte técnico (2022-2023)\n• Desarrollo de proyectos académicos en Java y Android"
+            android:text="• Ingeniero de soporte (2023-now)\n• Desarrollo de proyectos académicos en Java y Android"
             android:textColor="@color/texto_oscuro" />
 
         <LinearLayout

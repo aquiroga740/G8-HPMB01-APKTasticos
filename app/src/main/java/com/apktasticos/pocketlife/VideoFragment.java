@@ -19,7 +19,7 @@ public class VideoFragment extends Fragment {
 
     // Video de ejemplo en línea. Para uno local: "android.resource://" + paquete + "/" + R.raw.mi_video
     private static final String URL_VIDEO =
-            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4";
+            "https://drive.google.com/file/d/1VRYsWTCrmyQzUOWsjBuMGq_GcwxDkdJH/view?usp=sharing";
 
     private VideoView vvVideo;
     private TextView tvTituloVideo;
