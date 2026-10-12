@@ -94,8 +94,11 @@ Los mockups también están en [`docs/mockups`](docs/mockups):
 │           └── values/                  # Colores y estilos
 ├── docs/
 │   ├── entrega-1/                       # Documento de la primera entrega
+│   ├── entrega-2/                       # Documento de la segunda entrega
+│   ├── entrega-final/                   # Documento de la entrega final
 │   ├── mockups/                         # Diseños de interfaz
 │   └── uml/                             # Diagramas UML
+├── apk/                                 # APK instalable
 └── README.md
 ```
 
@@ -104,7 +107,18 @@ Los mockups también están en [`docs/mockups`](docs/mockups):
 | Entrega | Contenido | Ubicación |
 |---|---|---|
 | 1 | Título, descripción, objetivos, requerimientos, UML y diseño de interfaz | [`docs/entrega-1`](docs/entrega-1) |
-| 2 | Actividades y fragmentos, interfaz XML, identificadores, variables y eventos | [`app/`](app) |
+| 2 | Actividades y fragmentos, interfaz XML, identificadores, variables y eventos | [`docs/entrega-2`](docs/entrega-2) |
+| Final | Documento completo: entrega 1, interfaz con XML, código Java, conclusiones y recomendaciones | [`docs/entrega-final`](docs/entrega-final) |
+
+El código fuente de la aplicación está en [`app/`](app).
+
+## 📦 Instalación (APK)
+
+El archivo `PocketLife.apk` está en la carpeta [`apk/`](apk). Para instalarlo en un celular Android:
+
+1. Copia el archivo al dispositivo.
+2. Ábrelo desde el administrador de archivos y permite la instalación de aplicaciones desconocidas cuando el sistema lo pida.
+3. Para usar las secciones Video y Web, el dispositivo debe tener conexión a internet.
 
 ## ▶️ Cómo abrir y ejecutar el proyecto
 
